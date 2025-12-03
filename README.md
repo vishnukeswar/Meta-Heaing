@@ -1,5 +1,7 @@
 # Meta-Heaing
 Meta Hearing is a lightweight speech recognition system designed for real-time voice command detection. It combines efficient audio processing with ML models and supports deployment on ESP microcontrollers for low-power, on-device voice control.
+
+
 🚀 Features
 
 🎤 Real-Time Speech Recognition
@@ -19,22 +21,39 @@ Meta Hearing is a lightweight speech recognition system designed for real-time v
 🗂️ Includes Python + Firmware Codebase
 
 📁 Project Structure
+
 meta-hearing/
 │
+
+
 ├── src/
+
 │   ├── model/            # Pretrained or custom models
+
 │   ├── audio/            # Audio processing & feature extraction
+
 │   ├── esp/              # ESP32/ESP8266 firmware
+
 │   ├── utils/            # Helper scripts & tools
+
 │   └── main.py           # Desktop/PC-based speech recognition
+
 │
+
 ├── dataset/              # Training data (optional)
+
 │
+
 ├── docs/
+
 │   └── setup_guide.md    # Hardware + software setup
+
 │
+
 ├── requirements.txt      # Python dependencies
+
 ├── LICENSE
+
 └── README.md
 
 🛠️ Tech Stack
@@ -55,6 +74,7 @@ Streamlit (UI Demo)
 Flask/FastAPI (API endpoint)
 
 🔧 Installation
+
 1️⃣ Clone the repository
 git clone https://github.com/<your-username>/meta-hearing.git
 cd meta-hearing
@@ -113,10 +133,15 @@ python src/model/train.py
 
 Your dataset should follow:
 
+
 dataset/
+
  ├── command_1/
+ 
  ├── command_2/
+ 
  ├── command_3/
+ 
  └── ...
 
 
@@ -134,16 +159,6 @@ Export the trained model to the src/model/ folder.
 
  Model quantization for ESP32
 
-🤝 Contributing
-
-Contributions are welcome!
-You can contribute via:
-
-Forking the repo
-
-Creating a feature branch
-
-Submitting a pull request
 
 📜 License
 
