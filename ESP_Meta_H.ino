@@ -5,16 +5,16 @@
 #include <Adafruit_SSD1306.h>
 
 // Wi-Fi Credentials
-#define WIFI_SSID "Uppilis"
-#define WIFI_PASSWORD "uppili2442"
+#define WIFI_SSID ""
+#define WIFI_PASSWORD ""
 
 // Firebase Credentials
-#define API_KEY "AIzaSyCXeTza_jl9A95Thgb4EVbzcdxSMMIk8wM"
-#define DATABASE_URL "https://project-259c7-default-rtdb.firebaseio.com/"
+#define API_KEY ""
+#define DATABASE_URL ""
 
 // Firebase Authentication
-#define USER_EMAIL "project@gmail.com"
-#define USER_PASSWORD "123456789"
+#define USER_EMAIL ""
+#define USER_PASSWORD ""
 
 // OLED Display Setup
 #define SCREEN_WIDTH 128
@@ -56,3 +56,4 @@ void displayMessage(String msg) {
     display.println(msg);
     display.display();
 }
+
