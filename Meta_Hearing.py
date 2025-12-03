@@ -3,10 +3,10 @@ import pyrebase
 
 # Firebase Configuration (Replace with your actual Firebase credentials)
 firebase_config = {
-    "apiKey": "AIzaSyCXeTza_jl9A95Thgb4EVbzcdxSMMIk8wM",
-    "authDomain": "project-259c7.firebaseapp.com",
-    "databaseURL": "https://project-259c7-default-rtdb.firebaseio.com",
-    "storageBucket": "project-259c7.firebasestorage.app"
+    "apiKey": "",
+    "authDomain": "",
+    "databaseURL": "",
+    "storageBucket": ""
 }
 
 # Initialize Firebase
@@ -49,3 +49,4 @@ def speech_to_text():
 
 if __name__ == "__main__":
     speech_to_text()
+
